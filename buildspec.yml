@@ -2,8 +2,7 @@ version: 0.2
 
 env:
   variables:
-    APP_ENV: dev
-
+APP_ENV: stage
   parameter-store:
     DB_HOST: "/app/${APP_ENV}/db_host"
     API_URL: "/app/${APP_ENV}/api_url"
