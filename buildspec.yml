@@ -1,0 +1,13 @@
+version: 0.2
+
+env:
+  parameter-store:
+    DB_HOST: "/app/dev/db_host"
+    API_URL: "/app/dev/api_url"
+    LOG_LEVEL: "/app/dev/log_level"
+
+phases:
+  build:
+    commands:
+      - export APP_ENV=dev
+      - ./app.sh
