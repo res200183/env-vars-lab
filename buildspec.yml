@@ -2,7 +2,8 @@ version: 0.2
 
 env:
   variables:
-APP_ENV: stage
+    APP_ENV: stage
+
   parameter-store:
     DB_HOST: "/app/${APP_ENV}/db_host"
     API_URL: "/app/${APP_ENV}/api_url"
@@ -13,3 +14,4 @@ phases:
     commands:
       - echo "Environment is $APP_ENV"
       - ./app.sh
+
