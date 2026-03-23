@@ -1,13 +1,16 @@
 version: 0.2
 
 env:
+  variables:
+    APP_ENV: dev
+
   parameter-store:
-    DB_HOST: "/app/dev/db_host"
-    API_URL: "/app/dev/api_url"
-    LOG_LEVEL: "/app/dev/log_level"
+    DB_HOST: "/app/${APP_ENV}/db_host"
+    API_URL: "/app/${APP_ENV}/api_url"
+    LOG_LEVEL: "/app/${APP_ENV}/log_level"
 
 phases:
   build:
     commands:
-      - export APP_ENV=dev
+      - echo "Environment is $APP_ENV"
       - ./app.sh
