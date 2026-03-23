@@ -1,1 +1,23 @@
+# SSH keys
 .ssh/
+
+# AWS credentials
+.aws/
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp.ssh/
