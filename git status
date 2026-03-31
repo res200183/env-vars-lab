@@ -1,0 +1,35 @@
+[33mcommit fd098ef6829304e14845dfdd3b4a49bc07f1806f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-0.ec2.internal>
+Date:   Mon Mar 23 14:18:05 2026 +0000
+
+    update gitignore
+
+[33mcommit e75e5f9665b0d036ddf4a1249463aaa3875d4eb3[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-0.ec2.internal>
+Date:   Mon Mar 23 14:12:35 2026 +0000
+
+    add README
+
+[33mcommit 81dc18a3da14e5aae9d837bc8b79355679ebe89f[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-0.ec2.internal>
+Date:   Mon Mar 23 13:42:19 2026 +0000
+
+    fix yaml
+
+[33mcommit 4575251abc93bbd2b484ae4d9f339df78bfdbbf2[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-0.ec2.internal>
+Date:   Mon Mar 23 13:38:27 2026 +0000
+
+    switch to stage
+
+[33mcommit 9b49730af7856a29bb0e2b78087b589365e9e3f6[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-0.ec2.internal>
+Date:   Mon Mar 23 13:27:51 2026 +0000
+
+    dynamic env support
+
+[33mcommit 22ea81784559bcf7b452b2f84cfbfef529e2d760[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-0.ec2.internal>
+Date:   Mon Mar 23 13:12:31 2026 +0000
+
+    clean safe commit
